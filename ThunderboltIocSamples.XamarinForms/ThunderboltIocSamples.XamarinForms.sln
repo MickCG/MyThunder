@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32014.148
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThunderboltIocSamples.XamarinForms.UWP", "ThunderboltIocSamples.XamarinForms\ThunderboltIocSamples.XamarinForms.UWP\ThunderboltIocSamples.XamarinForms.UWP.csproj", "{C1459ABC-8809-444A-BC39-8ADCD73985F3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThunderboltIocSamples.XamarinForms.Android", "ThunderboltIocSamples.XamarinForms\ThunderboltIocSamples.XamarinForms.Android\ThunderboltIocSamples.XamarinForms.Android.csproj", "{9ABD7256-B045-4513-B26C-2F524F4E7D85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThunderboltIocSamples.XamarinForms.iOS", "ThunderboltIocSamples.XamarinForms\ThunderboltIocSamples.XamarinForms.iOS\ThunderboltIocSamples.XamarinForms.iOS.csproj", "{98103A28-52FC-4A91-B7D7-7A9DD1B7A593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThunderboltIocSamples.XamarinForms", "ThunderboltIocSamples.XamarinForms\ThunderboltIocSamples.XamarinForms\ThunderboltIocSamples.XamarinForms.csproj", "{757853B7-57E6-411E-96D7-8EE16BC68460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThunderboltIocSamples.XamarinForms", "ThunderboltIocSamples.XamarinForms\ThunderboltIocSamples.XamarinForms\ThunderboltIocSamples.XamarinForms.csproj", "{757853B7-57E6-411E-96D7-8EE16BC68460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,42 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|Any CPU.Build.0 = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|Any CPU.Deploy.0 = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|ARM.ActiveCfg = Debug|ARM
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|ARM.Build.0 = Debug|ARM
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|ARM.Deploy.0 = Debug|ARM
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|iPhone.ActiveCfg = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|iPhone.Build.0 = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|iPhone.Deploy.0 = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|iPhoneSimulator.ActiveCfg = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|iPhoneSimulator.Build.0 = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|iPhoneSimulator.Deploy.0 = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|x64.ActiveCfg = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|x64.Build.0 = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|x64.Deploy.0 = Debug|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|x86.ActiveCfg = Debug|x86
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|x86.Build.0 = Debug|x86
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Debug|x86.Deploy.0 = Debug|x86
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|Any CPU.ActiveCfg = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|Any CPU.Build.0 = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|Any CPU.Deploy.0 = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|ARM.ActiveCfg = Release|ARM
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|ARM.Build.0 = Release|ARM
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|ARM.Deploy.0 = Release|ARM
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|iPhone.ActiveCfg = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|iPhone.Build.0 = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|iPhone.Deploy.0 = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|iPhoneSimulator.ActiveCfg = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|iPhoneSimulator.Build.0 = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|iPhoneSimulator.Deploy.0 = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|x64.ActiveCfg = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|x64.Build.0 = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|x64.Deploy.0 = Release|x64
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|x86.ActiveCfg = Release|x86
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|x86.Build.0 = Release|x86
-		{C1459ABC-8809-444A-BC39-8ADCD73985F3}.Release|x86.Deploy.0 = Release|x86
 		{9ABD7256-B045-4513-B26C-2F524F4E7D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9ABD7256-B045-4513-B26C-2F524F4E7D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ABD7256-B045-4513-B26C-2F524F4E7D85}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
