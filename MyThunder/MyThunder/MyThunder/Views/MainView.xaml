@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MyThunder.Views.MainView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:markupExt="clr-namespace:MyThunder.MarkupExtensions;assembly=MyThunder"
+    xmlns:models="clr-namespace:MyThunder.Models;assembly=MyThunder"
+    xmlns:viewModels="clr-namespace:MyThunder.ViewModels;assembly=MyThunder"
+    x:DataType="viewModels:MainViewModel"
+    BindingContext="{markupExt:ThunderboltResolve Type={Type viewModels:MainViewModel}}">
+
+    <Grid>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="My platform is: " />
+                        <Span FontAttributes="Bold" Text="{Binding PlatformService.PlatformName}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Margin="0,8,0,0" Text="My things:" />
+            <StackLayout Margin="8,0,0,0" BindableLayout.ItemsSource="{Binding DataService.Things}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate x:DataType="models:Thing">
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="A thing with the name of: " />
+                                    <Span FontAttributes="Bold" Text="{Binding Name}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
